@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\FantasticHero.Data\FantasticHero.Data.csproj" />
+    <ProjectReference Include="..\FantasticHero.CoreGame\FantasticHero.CoreGame.csproj" />
+    <ProjectReference Include="..\FantasticHero.Data.Abstractions\FantasticHero.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>
